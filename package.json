@@ -1,0 +1,14 @@
+{
+  "name": "nabla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Faiez Elhares",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

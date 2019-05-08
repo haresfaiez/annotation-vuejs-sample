@@ -1,0 +1,145 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+h1, h2 {
+  font-size: 1rem;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 100%;
+  padding: 50px 200px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.mono-space-font {
+  font-family: 'Oxygen Mono', monospace;
+}
+
+textarea {
+  resize: none;
+}
+
+.no-border {
+  border: none;
+}
+
+.flex-grow-4 {
+  flex-grow: 4;
+}
+
+.flex-grow-8 {
+  flex-grow: 8;
+}
+
+.right-aligned-text {
+  text-align: right;
+}
+
+.default-gap {
+  gap: 15px;
+}
+
+.default-top-margin {
+  margin-top: 15px;
+}
+
+.default-right-margin {
+  margin-right: 15px;
+}
+
+.default-left-margin {
+  margin-left: 15px;
+}
+
+.list-group-flush * {
+  border: none;
+}
+
+.inner-row {
+  margin: 50px 0;
+}
+
+.dropdown * {
+  width: 100%;
+}
+
+.chat-box {
+  height: 70vh;
+  overflow: scroll;
+}
+
+.chat-input {
+  margin: 15px 0;
+}
+
+.chat-input * {
+  border: none;
+}
+
+.chat-message {
+  padding: 8px;
+  max-width: 70%;
+  width: max-content;
+}
+
+.chat-message-author {
+  color: #a0a0a0;
+  margin: 5px;
+  font-size: 0.9em;
+}
+
+.right-aligned {
+  display: flex;
+  justify-content: end;
+}
+
+.other-person-message {
+  background-color: #f0f0f0;
+  border: none;
+}
+
+.my-message {
+  color: white;
+  border:none;
+}
+
+.no-left-padding {
+  padding-left: 0;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+.light-grey-on-hover {
+  background-color: #f8f9fa;
+}
+
+.dark-grey-on-focus {
+  background-color: #e7e7e7;
+}
+
+.dropdown-toggle::after {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
+.form-control {
+  height: 38px !important;
+}
+
+.half-transparent {
+  opacity: 0.5;
+}
